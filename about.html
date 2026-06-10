@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>화곡 셔츠룸 - 마포 네트워크 보안 정보 센터</title>
+    <meta name="description" content="마포구 화곡동 네트워크 보안 인프라 및 화곡 셔츠룸 관련 지역 보안 데이터 분석입니다. IP 트래픽 모니터링 및 물리적 보안 솔루션을 제공합니다.">
+    <meta name="keywords" content="화곡 셔츠룸, 마포 네트워크 보안, 서울 보안 솔루션, 데이터 센터 관리">
+    <link rel="canonical" href="https://sf-t3-1779642675702-098.pages.dev/info">
+    <meta property="og:title" content="마포 네트워크 보안 - 화곡 셔츠룸 정보 아카이브">
+    <meta property="og:description" content="화곡 셔츠룸 지역의 네트워크 보안 현황과 전문적인 IT 인프라 관리 데이터를 확인하십시오.">
+    <meta property="og:type" content="website">
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --text-color: #e0e0e0;
+            --accent-color: #00ff9d;
+            --border-color: #333;
+            --card-bg: #111;
+            --font-main: 'Courier New', Courier, monospace;
+            --font-display: Impact, sans-serif;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            border: 1px solid var(--border-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+        header {
+            border-bottom: 2px solid var(--accent-color);
+            padding: 20px 0;
+            background: #000;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+        .nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        .nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+        .hero {
+            margin-bottom: 60px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 20px;
+        }
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            line-height: 1;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            max-width: 600px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        @media (min-width: 768px) {
+            .info-grid {
+                grid-template-columns: 2fr 1fr;
+            }
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            color: var(--accent-color);
+        }
+        .card p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .data-block {
+            font-family: monospace;
+            font-size: 0.9rem;
+            background: #000;
+            padding: 10px;
+            border: 1px dashed var(--border-color);
+            margin-top: 10px;
+        }
+        .highlight {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        .contact-box {
+            background: var(--accent-color);
+            color: #000;
+            padding: 30px;
+            text-align: center;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-top: 40px;
+        }
+        .contact-box a {
+            color: #000;
+            text-decoration: none;
+            border-bottom: 3px solid #000;
+        }
+        footer {
+            border-top: 2px solid var(--border-color);
+            padding: 40px 0;
+            background: #000;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .header-content { flex-direction: column; gap: 20px; }
+            .nav ul { flex-wrap: wrap; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">MAPO_SEC_OPS</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/info">Information</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>정보 아카이브</h1>
+            <p>마포구 화곡동 지역의 네트워크 인프라 및 물리적 보안 데이터 분석 리포트입니다.</p>
+        </section>
+
+        <div class="info-grid">
+            <div class="content-area">
+                <article class="card">
+                    <h2>지역 보안 프로토콜: 화곡 셔츠룸</h2>
+                    <p>본 보고서는 마포구 화곡동 일대의 특정 상업 시설 (일명 <span class="highlight">화곡 셔츠룸</span>) 에 대한 네트워크 보안 취약점 분석 및 물리적 접근 통제 데이터를 다룹니다. 해당 지역의 트래픽 패턴은 비정상적인 외부 접속 시도가 빈번하게 감지되고 있으며, 이는 데이터 무결성을 위협할 수 있는 요소로 식별되었습니다.</p>
+                    <p>우리의 보안 솔루션은 이러한 위협을 실시간으로 차단하고, 안정적이고 폐쇄적인 네트워크 환경을 구축하는 것을 목표로 합니다. 고객사의 프라이버시 보호와 시스템 가동률 99.9% 유지를 최우선 과제로 삼고 있습니다.</p>
+                    <div class="data-block">
+                        > SYSTEM_STATUS: MONITORING<br>
+                        > THREAT_LEVEL: MODERATE<br>
+                        > REGION: Hwagok-dong, Mapo-gu<br>
+                        > PROTOCOL: ENCRYPTED_TUNNEL_V2
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h2>인프라 관리 및 데이터 무결성</h2>
+                    <p>네트워크 보안은 단순한 방화벽 설치를 넘어선 종합적인 시스템 관리가 필요합니다. 특히 유흥 및 고밀도 상업 지역인 화곡동 특성상, DDoS 공격 및 불법 스니핑 (Sniffing) 시도에 대한 대비가 필수적입니다.</p>
+                    <p>우리는 최신 IPS/IDS 시스템을 도입하여 패킷 수준에서의 검사를 수행하며, 내부 네트워크의Segmentation 을 통해 중요한 정보가 유출되지 않도록 다층 방어 체계를 구축합니다.</p>
+                </article>
+            </div>
+
+            <aside class="sidebar">
+                <div class="card">
+                    <h2>자주 묻는 질문 (FAQ)</h2>
+                    <div style="margin-bottom: 20px;">
+                        <strong style="color:var(--accent-color); display:block; margin-bottom:5px;">Q. 화곡 셔츠룸 지역의 보안 수준은?</strong>
+                        <p style="font-size:0.9rem;">A. 해당 지역은 외부 접속이 많아 기본적인 방화벽만으로는 부족합니다. 전문적인 managed security service 가 필요합니다.</p>
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <strong style="color:var(--accent-color); display:block; margin-bottom:5px;">Q. 실시간 모니터링이 가능한가요?</strong>
+                        <p style="font-size:0.9rem;">A. 네, 24 시간 365 일 NOC(network operations center) 에서 실시간 트래픽을 감시합니다.</p>
+                    </div>
+                    <div>
+                        <strong style="color:var(--accent-color); display:block; margin-bottom:5px;">Q. 대응 절차는?</strong>
+                        <p style="font-size:0.9rem;">A. 이상 탐지 즉시 차단 및 관리자 알림이 발송되며, 포렌식 분석을 통해 원인을 규명합니다.</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <div class="contact-box">
+            <p style="font-size: 1rem; margin-bottom: 10px; font-family: var(--font-main);">긴급 보안 컨설팅 및 문의</p>
+            <p>전화: <a href="tel:010-6279-0862">010-6279-0862</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MAPO NETWORK SECURITY. ALL RIGHTS RESERVED.</p>
+            <p>서울특별시 마포구 화곡동 일대 네트워크 보안 전문 솔루션 제공.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
